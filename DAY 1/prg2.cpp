@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int n, i = 1;
 
-    cout << "Enter a number: ";
+    cout << "Enter a num: ";
     cin >> n;
 
     cout << "Numbers divisible by 2 between 1 and " << n << " are:" << endl;
