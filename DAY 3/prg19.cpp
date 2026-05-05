@@ -1,4 +1,4 @@
-// empty square//
+// hallow square//
 #include <iostream>
 using namespace std;
 
