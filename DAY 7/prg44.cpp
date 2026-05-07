@@ -1,0 +1,44 @@
+// single inheretence //
+
+#include <iostream>
+using namespace std;
+
+class Player{
+public:
+    string name; 
+    int age;
+
+    void setName(string n){
+        name = n;
+    }    
+};
+
+// Derived class or child class
+class cricketer : public Player{
+public:
+    int runs;
+
+    void setRuns(int r){
+        runs = r;
+    }
+
+    void show(){
+        cout << "Name:" << name << endl;
+        cout << "Runs:" << runs << endl;
+    }
+};   
+
+int main(){
+
+    int r;
+    cin >> r;
+
+    cricketer c1;
+
+    c1.setName("virat");
+    c1.setRuns(r);
+
+    c1.show();
+
+    return 0;
+}
